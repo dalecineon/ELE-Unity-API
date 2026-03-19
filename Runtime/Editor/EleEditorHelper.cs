@@ -30,7 +30,7 @@ public static class EleEditorHelper
         }
         string[] prefabGuids = AssetDatabase.FindAssets("t:Prefab", new[]
         {
-            "Assets/ThirdParty/ele-unity-client/ele-unity-client/Runtime/Prefabs"
+            "Assets/ThirdParty/ELE-Unity-API/Runtime/Prefabs"
         });
         foreach (string guid in prefabGuids)
         {

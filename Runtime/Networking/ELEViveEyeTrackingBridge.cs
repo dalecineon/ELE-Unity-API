@@ -1,3 +1,4 @@
+
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -7,11 +8,13 @@ using UnityEngine;
 #if VIVE_OPENXR
 using VIVE.OpenXR;
 using VIVE.OpenXR.EyeTracker;
+#endif
 
 namespace Cineon.ELE.Networking
 {
     public class ELEViveEyeTrackingBridge : MonoBehaviour
     {
+#if VIVE_OPENXR
         //Enum for the recording state.
         public enum RecordingState
         {
@@ -197,7 +200,6 @@ namespace Cineon.ELE.Networking
 
             return null;
         }
-
+#endif
     }
 }
-#endif

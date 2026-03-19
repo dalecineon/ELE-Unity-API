@@ -6,11 +6,6 @@ using Cineon.ELE.Networking;
 using System;
 using UnityEngine.UIElements;
 
-//TODO
-// Implement the logic to distribute eye data to the server
-// Need to add logic to create gaze windows after the first 10 seconds of data.
-// So 0-10s data collection then 5-15s, 10-20s etc.
-// This script will request data from the EyeDataStorage script and then distribute it to the server.
 
 namespace Cineon.ELE.Networking
 {
